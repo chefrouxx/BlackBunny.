@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# BlackBunny 🐰
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A social networking app built with Expo and React Native. Connect with friends, share posts, and chat in real-time.
 
-## Get started
+## 🚀 Quick Install
 
-1. Install dependencies
+### For iOS (iPhone/iPad)
+1. Download the **Expo Go** app from the App Store.
+2. Open this link on your phone: [exp://exp.host/@chefrouxx/blackbunny](exp://exp.host/@chefrouxx/blackbunny)  
+   (Or scan the QR code below with Expo Go)
+3. The app will open instantly!
 
+**QR Code:**  
+![Expo QR](https://qr.expo.dev/eas-update?updateId=...&appScheme=exp) *(Replace with actual QR if published)*
+
+### For Windows/Mac (Desktop)
+1. Go to [Releases](https://github.com/chefrouxx/BlackBunny/releases) on GitHub.
+2. Download the latest installer:
+   - **Windows**: `BlackBunny-Setup.exe`
+   - **Mac**: `BlackBunny.dmg`
+3. Run the installer and follow the setup wizard.
+4. Launch BlackBunny from your desktop!
+
+## 🛠️ Development Setup
+
+If you want to build or modify the app:
+
+1. **Install Node.js** (version 20 or higher) from [nodejs.org](https://nodejs.org).
+
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/chefrouxx/BlackBunny.git
+   cd BlackBunny
+   ```
+
+3. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+4. **Start development**:
    ```bash
-   npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+5. **Run on devices**:
+   - iOS: Open in Expo Go or Xcode simulator
+   - Android: Open in Expo Go or Android emulator
+   - Web: Open in browser
+   - Desktop: `npm run dist` to build installers
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- User authentication with Firebase
+- Real-time chat and messaging
+- Post sharing and social feed
+- Friend requests and groups
+- Offline support with local storage
+- Cross-platform: iOS, Android, Web, Desktop
 
-## Get a fresh project
+## 🆘 Troubleshooting
 
-When you're ready, run:
+- **App won't load?** Make sure you have a stable internet connection for initial login.
+- **Desktop installer issues?** Ensure you have admin rights to install.
+- **Expo Go problems?** Update to the latest version of Expo Go.
 
-```bash
-npm run reset-project
-```
+## 📄 License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project is private. Contact the developer for access.
 
-## Learn more
+## 🤝 Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to open issues or pull requests on GitHub!
